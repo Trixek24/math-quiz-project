@@ -1,0 +1,23 @@
+#player_1div{
+    border-radius: 10px;
+    border-color: white;
+    border-width: 5px;
+    border-style:outset;
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+#player_2div{
+    border-radius: 10px;
+    border-color: white;
+    border-width: 5px;
+    border-style:outset;
+    width: 800px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+body{
+    background-color: lightsalmon;
+}
