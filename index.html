@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Math Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="main.js"></script>
+    <script src="game_login.js"></script>
 </head>
 <body>
     <br>
@@ -26,7 +29,7 @@
         <label>User Name: </label>
         <br>
         <br>
-        <input type="text" placeholder="Player 1 User Name">
+        <input id = "player1_name_input" type="text" placeholder="Player 1 User Name">
 
 
     </div>
@@ -38,10 +41,15 @@
         <label>User Name: </label>
         <br>
         <br>
-        <input type="text" placeholder="Player 2 User Name">
+        <input id = "player2_name_input" type="text" placeholder="Player 2 User Name">
 
 
     </div>
+    <br>
+    <br>
+
+    <button class="btn btn-warning" onclick="addUser()">Login</button>
+
 </center>    
 </body>
 </html>
